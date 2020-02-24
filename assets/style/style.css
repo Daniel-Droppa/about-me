@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwfnKLVo2qWAoWHpLsIPZS1pAhjsNbnhi2gLoyY-B_JuWKuQXr&s)
+    /* background-color: #F0F3BD; */
+}
+#navBar{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    /* background: gray; */
+}
+#name{
+    text-align: center;
+    flex-basis: 25%;
+    margin-left: 300px;
+    padding-left: 10px;
+    background-color: #05668D;
+    color: white;
+    border-radius: 2px;
+}
+#navbutton{
+    flex-basis: 35%;
+    text-align: right;
+    justify-content: center;    
+    padding-top: 15px;
+}
+#navbutton a{
+    margin-left: 60px;
+    font-size: larger;
+}
+
+#mainSection {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px black solid; */
+}
+#sectionTitle{
+background: #028090;
+color: white;
+margin: 10px 300px;
+border-radius: 2px;
+}
+.sectionContent {
+    justify-content: center;
+    border: 1px black solid;
+    border-radius: 2px;
+    margin: 0 300px;
+    background: grey;
+    color: whitesmoke;
+    font-size: large;
+    flex-shrink: 1;
+}
+.sectionContent img{
+    margin: 15px 0px;
+    border-radius: 15px;
+}
+.sectionContent p{
+    margin: 0px 50px;
+}
+footer{
+  background: #028090;
+  color: whitesmoke;
+  font-size: large;
+   text-align: center;
+   margin: 10px 300px;
+   border-radius: 2px;
+
+}

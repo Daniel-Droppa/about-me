@@ -52,7 +52,7 @@ border-radius: 2px;
     background: grey;
     color: whitesmoke;
     font-size: large;
-    flex-shrink: 1;
+    
 }
 .sectionContent img{
     margin: 15px 0px;

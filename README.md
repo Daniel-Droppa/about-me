@@ -3,7 +3,7 @@ This is my "about me" webpage. I will keep updating it while I complete more pro
 
 [link to githup deployed site] (https://daniel-droppa.github.io/about-me/)
 
-![screenshot of portfolio] (assets\images\portfolio-ss.png)
+![screenshot of portfolio] (./assets/images/portfolio-ss.png)
 
 
 

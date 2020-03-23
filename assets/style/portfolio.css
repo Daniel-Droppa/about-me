@@ -1,0 +1,85 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwfnKLVo2qWAoWHpLsIPZS1pAhjsNbnhi2gLoyY-B_JuWKuQXr&s);
+  /* background-color: #F0F3BD; */
+}
+#navBar {
+  margin-top: 10px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  /* background: gray; */
+}
+#name {
+  text-align: center;
+  flex-basis: 25%;
+  margin-left: 300px;
+  padding-left: 10px;
+  background-color: #05668d;
+  color: white;
+  border-radius: 2px;
+}
+#navbutton {
+  flex-basis: 35%;
+  text-align: right;
+  justify-content: center;
+  padding-top: 15px;
+}
+#navbutton a {
+  margin-left: 60px;
+  font-size: larger;
+}
+#sectionTitle {
+  background: #028090;
+  color: white;
+  margin: 10px 300px;
+  border-radius: 2px;
+}
+.sectionContent {
+  justify-content: center;
+  border: 1px black solid;
+  border-radius: 2px;
+  margin: 0 20%;
+  background: grey;
+  color: whitesmoke;
+  font-size: large;
+}
+#mainSection {
+  display: grid;
+  justify-content: stretch;
+  text-align: center;
+  grid-template-columns: 10px auto 10px;
+  grid-template-rows: 20% 40% 40%;
+  /* grid-template-areas:
+    "title title title"
+    "topleft ... topright"; */
+}
+.item-a {
+    grid-area: title;
+    justify-content: center;
+  border: 1px black solid;
+  border-radius: 2px;
+  margin: 0 300px;
+  background: grey;
+  color: whitesmoke;
+  font-size: large;
+}
+.item-b {
+  grid-area: topleft;
+  justify-content: center;
+  border: 1px black solid;
+  border-radius: 2px;
+  margin: 0 300px;
+  background: grey;
+  color: whitesmoke;
+  font-size: large;
+}
+.item-c {
+  grid-area: topright;
+  justify-content: center;
+  border: 1px black solid;
+  border-radius: 2px;
+  margin: 0 300px;
+  background: grey;
+  color: whitesmoke;
+  font-size: large;
+}

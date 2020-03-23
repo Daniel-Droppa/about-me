@@ -12,7 +12,7 @@ body {
 #name{
     text-align: center;
     flex-basis: 25%;
-    margin-left: 300px;
+    margin-left: 20%;
     padding-left: 10px;
     background-color: #05668D;
     color: white;
@@ -22,13 +22,16 @@ body {
     flex-basis: 35%;
     text-align: right;
     justify-content: center;    
-    padding-top: 15px;
+    padding-top: 30px;
+    margin-right: 20%;
 }
 #navbutton a{
     margin-left: 60px;
     font-size: larger;
 }
-
+.instructions {
+    color: black;
+}
 #mainSection {
     
     display: flex;
@@ -41,14 +44,17 @@ body {
 #sectionTitle{
 background: #028090;
 color: white;
-margin: 10px 300px;
+margin: 10px 20%;
 border-radius: 2px;
 }
 .sectionContent {
-    justify-content: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px black solid;
     border-radius: 2px;
-    margin: 0 300px;
+    margin: 0 20%;
     background: grey;
     color: whitesmoke;
     font-size: large;
@@ -66,7 +72,7 @@ footer{
   color: whitesmoke;
   font-size: large;
    text-align: center;
-   margin: 10px 300px;
+   margin: 10px 20%;
    border-radius: 2px;
 
 }
